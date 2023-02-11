@@ -1,0 +1,33 @@
+var mes = promt("ingrese el numero de un mes");
+var mes = parselnt(mes;
+
+if (mes >= 1 && mes <= 12){
+    let estacion;
+    switch (mes){
+case 12:
+case 1:
+case 2:
+estacion = "invierno"; 
+break;
+case 3: 
+case 4: 
+case 5:
+estaacion = "primavera";
+break;
+case 6:
+case 7:
+case 8:
+estacion = "verano";
+break;
+case 9:
+case 10:
+case 11:
+estacion = "otonio";
+break;
+}
+alert("mes" + estacion);
+alert("nombre: Josue Abrham Ramirez/numero de carnet 23001556"); 
+}else{
+    alert("valor invalido");
+    }
+
